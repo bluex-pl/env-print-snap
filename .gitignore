@@ -1,0 +1,16 @@
+build
+dist
+*.egg-info
+.eggs/
+*.pyc
+.coverage**
+htmlcov
+__pycache__
+docs/**.html
+Cargo.lock
+target
+*.swp
+*.snap
+parts
+stage
+prime

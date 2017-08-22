@@ -1,0 +1,3 @@
+[submodule "env-print"]
+	path = env-print
+	url = https://github.com/bluex-pl/env-print.git

@@ -1,0 +1,23 @@
+name: env-print
+version: '0.1'
+summary: Print environment
+description: |
+  Print environment
+
+grade: devel
+confinement: devmode
+
+apps:
+  env-print:
+    command: env-print
+  daemon1:
+    command: env-print
+    daemon: simple
+
+parts:
+  env-print-cmd:
+    source: https://github.com/bluex-pl/env-print.git
+    plugin: python
+    requirements: requirements.txt
+  
+    
