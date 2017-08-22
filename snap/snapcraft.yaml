@@ -8,7 +8,7 @@ grade: stable
 confinement: strict
 
 apps:
-  env-print:
+  bluex-env-print-test:
     command: env-print
   daemon1:
     command: env-print
